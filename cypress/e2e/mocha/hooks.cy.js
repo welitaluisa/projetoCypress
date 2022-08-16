@@ -1,4 +1,4 @@
-describe('DESCRIBE - testes do site iterasys', () => {
+describe('[' + new Date().toLocaleString() + ']  - testes do site iterasys', () => {
 
     before(() => {
         cy.log('DESCRIBE - BEFORE ALL')
@@ -9,7 +9,7 @@ describe('DESCRIBE - testes do site iterasys', () => {
     })
 
     after(() => {
-        cy.log('DESCRIBE - AFTER ALL')
+        cy.log('[' + new Date().toLocaleString() + ']DESCRIBE - AFTER ALL')
     })
 
     afterEach(() => {
@@ -45,7 +45,7 @@ describe('DESCRIBE - testes do site iterasys', () => {
         })
 
         after(() => {
-            cy.log('CONTEXT 2 - AFTER ALL')
+            cy.log('[' + new Date().toLocaleString() + '] CONTEXT 2 - AFTER ALL')
         })
 
         it('meu terceiro teste', () => {

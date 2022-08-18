@@ -18,3 +18,10 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+before(() => {
+    cy.log('e2e.js - BEFORE ALL')
+})
+
+after(() => {
+    cy.log('e2e.js - AFTER ALL')
+})

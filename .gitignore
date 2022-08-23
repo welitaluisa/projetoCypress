@@ -8,3 +8,4 @@ lerna-debug.log*
 .pnpm-debug.log*
 #node.js
 node_modules
+/cypress/screenshots

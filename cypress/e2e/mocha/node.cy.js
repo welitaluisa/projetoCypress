@@ -29,6 +29,10 @@ describe('Teste do cypress.config.js', () => {
     }) 
     it.only('le variavel de ambiente sistema operacional ', () => {
         cy.task('lerEmail')
+            .then(retorno => {
+                cy.log(retorno)
+
+            })
     })    
 
 })

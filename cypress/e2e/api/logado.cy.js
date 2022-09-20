@@ -7,8 +7,9 @@ describe('API - Posts', () => {
 
   
     after(() => {
+        cy.log('Limpando os cookies')
         Cypress.Cookies.defaults({
-            preserve:'jwt'
+            preserve:[]
         })
     })
     it('valida todos os posts 2', () => {

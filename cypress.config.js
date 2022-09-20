@@ -19,8 +19,8 @@ module.exports = defineConfig({
                     return null
                 },
 
-                lerPasta() {
-                    return fs.readdirSync('cypress/e2e/api').length
+                lerPasta(caminho) {
+                    return fs.readdirSync(caminho).length
                 },
                 lerEmail() {
                     return process.env.email
@@ -29,4 +29,5 @@ module.exports = defineConfig({
             })
         },
     },
+    
 });

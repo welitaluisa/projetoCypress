@@ -1,7 +1,6 @@
 {
   "name": "projetocypress",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^10.4.0",
+    "cypress": "^10.8.0",
     "eslint": "^8.22.0",
     "eslint-plugin-cypress": "^2.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welitaluisa/projetoCypress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/welitaluisa/projetoCypress/issues"
+  },
+  "homepage": "https://github.com/welitaluisa/projetoCypress#readme",
+  "description": ""
 }
